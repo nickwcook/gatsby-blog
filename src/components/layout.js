@@ -6,13 +6,9 @@ import "./layout.css"
 
 const Layout = ({ children }) => (
 	<div>
-		<header>
-			Nick Cook
-		</header>
+		<Header />
 		<main>{children}</main>
-		<footer>
-			Developed with Gatsby
-		</footer>
+		<Footer />
 	</div>
 )
 
