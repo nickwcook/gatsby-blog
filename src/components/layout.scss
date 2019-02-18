@@ -1,0 +1,12 @@
+body, #site {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background: #F0F5FB;
+}
+
+main {
+    flex: 1;
+    padding: 50px 15vw;
+}

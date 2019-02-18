@@ -15,18 +15,16 @@ module.exports = {
 		},
 		`gatsby-transformer-sharp`,
 		`gatsby-plugin-sharp`,
+		`gatsby-plugin-manifest`,
+		`gatsby-plugin-sass`,
 		{
-			resolve: `gatsby-plugin-manifest`,
+			resolve: `gatsby-plugin-google-fonts`,
 			options: {
-				name: `gatsby-starter-default`,
-				short_name: `starter`,
-				start_url: `/`,
-				background_color: `#663399`,
-				theme_color: `#663399`,
-				display: `minimal-ui`,
-				icon: `src/images/gatsby-icon.png`,
-			},
-		},
-		'gatsby-plugin-sass'
+				fonts: [
+					'material icons',
+					`roboto: 300, 400, 500, 600`
+				]
+			}
+		}
 	],
 }

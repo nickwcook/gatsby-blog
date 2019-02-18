@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+* {
+    font-family: 'Roboto';
+}
+
+a, button {
+    transition: 0.15s ease;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+}
+
+h4, h5 {
+    font-weight: 500;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-size: 14px;
+}
+
+.text-light {
+    font-weight: 300;
+}
+
+.text-medium {
+    font-weight: 500;
+}
+
+.text-bold {
+    font-weight: 600;
+}
+
+.btn {
+    padding: 8px 25px;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+
+    &:not(.material-icons) {
+        font-family: 'Roboto';
+    }
+
+    &.material-icons {
+        font-size: 14px;
+    }
+}
+
+.btn--primary {
+    border-radius: 20px;
+    color: #fff;
+    background: #6949a4;
+
+    &:hover {
+        background: #5a3f8d;
+    }
+}
