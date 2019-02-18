@@ -36,22 +36,22 @@ const Header = (props) => (
 							<Link to="/" className="material-icons active">home</Link>
 						</li>
 						<li>
-							<Link to="/">ReactJS</Link>
+							<Link to="/reactjs-articles">ReactJS</Link>
 						</li>
 						<li>
-							<Link to="/">React Native</Link>
+							<Link to="/react-native-articles">React Native</Link>
 						</li>
 						<li>
-							<Link to="/">Angular</Link>
+							<Link to="/angular-articles">Angular</Link>
 						</li>
 						<li>
-							<Link to="/">NodeJS</Link>
+							<Link to="/nodejs-articles">NodeJS</Link>
 						</li>
 						<li>
-							<Link to="/">JavaScript</Link>
+							<Link to="/javascript-articles">JavaScript</Link>
 						</li>
 						<li>
-							<Link to="/">Other</Link>
+							<Link to="/misc-articles">Miscellaneous</Link>
 						</li>
 					</ul>
 				</nav>
